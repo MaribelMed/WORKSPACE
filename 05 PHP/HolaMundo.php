@@ -12,6 +12,6 @@ ini_set('display_errors', 1);
     <title>Document</title>
 </head>
 <body>
-    <?php echo "Hola Mundo!"; ?> 
+    <?php echo "Hola Mundo estoy aquí en Sevilla!"; ?> 
 </body>
 </html>
