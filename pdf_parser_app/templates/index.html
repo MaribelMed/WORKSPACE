@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PDF to JSON</title>
+</head>
+<body>
+<h1>PDF to JSON Parser</h1>
+<form action="/parse" method="post" enctype="multipart/form-data">
+    <label>PDF File: <input type="file" name="pdf" required></label><br>
+    <label>Start Page: <input type="number" name="start" value="1"></label><br>
+    <label>End Page: <input type="number" name="end" value="1"></label><br>
+    <button type="submit">Parse</button>
+</form>
+</body>
+</html>
